@@ -1,10 +1,10 @@
-let icon = document.getElementById("icon");
-icon.style.maxHeight = "0px";
+let anchor = document.getElementById("anchor");
+anchor.style.maxHeight = "0px";
 
 function toggleMenu() {
-    if (icon.style.maxHeight = "0px") {
-        icon.style.maxHeight = "0px";
-    }else{
-        icon.style.maxHeight = "opx";
+    if (anchor.style.maxHeight === "0px") {
+        anchor.style.maxHeight = "300px";
+    } else {
+        anchor.style.maxHeight = "0px";
     }
 }
